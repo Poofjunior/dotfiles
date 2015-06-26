@@ -113,9 +113,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source /opt/ros/groovy/setup.bash
-source /home/poofjunior/Projects/lair-rov/devel/setup.sh
+export QSYS_ROOTDIR="/home/poofjunior/altera/15.0/quartus/sopc_builder/bin"
 
-# For making the vim color settings work:
+export ALTERAOCLSDKROOT="/home/poofjunior/altera/15.0/hld"
+
+export PATH=$PATH:~/altera/15.0/quartus/bin
+
 export TERM=xterm-256color
-
