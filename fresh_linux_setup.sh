@@ -18,4 +18,11 @@ apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 0xB01FA116
 apt-get update
 apt-get install ros-indigo-desktop-full
 
+# install java
+apt-get install openjdk-6-jdk
+
+#install arduino 1.0.6
+
+#install udev rules for Teensy
+
 
