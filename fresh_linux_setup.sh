@@ -35,6 +35,9 @@ apt-get install ros-indigo-desktop-full
 apt-get install openjdk-6-jdk
 
 #install arduino 1.0.6
+wget http://arduino.cc/download.php?f=/arduino-1.0.6-linux64.tgz
+#install Teensyduino
+wget https://www.pjrc.com/teensy/td_125/teensyduino.64bit
 
 #install udev rules for Teensy
 
