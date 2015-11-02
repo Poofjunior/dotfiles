@@ -9,6 +9,19 @@ update-alternatives --config x-terminal-emulator
 #install vim
 apt-get install vim
 
+#install dwm
+sudo apt-get install build-essential libx11-dev libxinerama-dev sharutils suckless-tools
+sudo wget http://dl.suckless.org/dwm/dwm-6.0.tar.gz
+sudo tar xvzf dwm-6.0.tar.gz
+chown -R `id -u`:`id -g` dwm-6.0
+cd dwm-6.0
+sudo make clean install
+## install dwm from the repos to get /usr/share/xsessions/dwm.desktop
+sudo apt-get install dwm
+sudo cp /usr/share/xsessions/dwm.desktop{,.bak}
+sudo apt-get purge dwm
+sudo mv /usr/share/xsessions/dwm.desktop{.bak,}
+
 #install git
 apt-get install git
 
