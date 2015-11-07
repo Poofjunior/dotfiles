@@ -22,6 +22,10 @@ sudo cp /usr/share/xsessions/dwm.desktop{,.bak}
 sudo apt-get purge dwm
 sudo mv /usr/share/xsessions/dwm.desktop{.bak,}
 
+# dwm fixes for pycharm
+wmname LG3D
+wmname compiz
+
 #install git
 apt-get install git
 
