@@ -22,9 +22,14 @@ sudo cp /usr/share/xsessions/dwm.desktop{,.bak}
 sudo apt-get purge dwm
 sudo mv /usr/share/xsessions/dwm.desktop{.bak,}
 
-# dwm fixes for pycharm
-wmname LG3D
-wmname compiz
+# dwm fixes for pycharm. Add these commands to /usr/local/bin/charm
+# wmname LG3D
+# wmname compiz
+# like this:
+#import subprocess
+#subprocess.call(['wmname', 'LG3D'], stdout=subprocess.PIPE, shell=False)        
+#subprocess.call(['wmname', 'compiz'], stdout=subprocess.PIPE, shell=False) 
+
 
 #install git
 apt-get install git
