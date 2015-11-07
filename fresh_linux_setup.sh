@@ -22,13 +22,17 @@ sudo cp /usr/share/xsessions/dwm.desktop{,.bak}
 sudo apt-get purge dwm
 sudo mv /usr/share/xsessions/dwm.desktop{.bak,}
 
+# install pycharm (needs java)
+
 # dwm fixes for pycharm. Add these commands to /usr/local/bin/charm
 # wmname LG3D
 # wmname compiz
 # like this:
 #import subprocess
 #subprocess.call(['wmname', 'LG3D'], stdout=subprocess.PIPE, shell=False)        
-#subprocess.call(['wmname', 'compiz'], stdout=subprocess.PIPE, shell=False) 
+#subprocess.call(['wmname', 'compiz'], stdout=subprocess.PIPE, shell=False)
+# make a symlink for pycharm to call pycharm as well as just charm
+sudo ln -s /usr/local/bin/charm /usr/local/bin/pycharm
 
 
 #install git
