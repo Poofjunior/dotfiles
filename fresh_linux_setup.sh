@@ -34,6 +34,8 @@ sudo mv /usr/share/xsessions/dwm.desktop{.bak,}
 # make a symlink for pycharm to call pycharm as well as just charm
 sudo ln -s /usr/local/bin/charm /usr/local/bin/pycharm
 
+# install ksnapshot (for screenshots)
+apt-get install ksnapshot
 
 #install git
 apt-get install git
