@@ -22,6 +22,11 @@ sudo cp /usr/share/xsessions/dwm.desktop{,.bak}
 sudo apt-get purge dwm
 sudo mv /usr/share/xsessions/dwm.desktop{.bak,}
 
+# install pip
+apt-get install python-pip
+#install pyqt (for dxf2gcode)
+apt-get install qtcreator pyqt4-dev-tools
+
 # install pycharm (needs java)
 
 # dwm fixes for pycharm. Add these commands to /usr/local/bin/charm
