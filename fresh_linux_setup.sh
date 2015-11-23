@@ -56,4 +56,6 @@ wget https://www.pjrc.com/teensy/td_125/teensyduino.64bit
 
 #install udev rules for Teensy
 
+# if sound doesn't work, install pavucontrol
+apt-get install pavucontrol
 
