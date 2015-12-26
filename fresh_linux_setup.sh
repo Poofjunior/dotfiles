@@ -65,3 +65,17 @@ wget https://www.pjrc.com/teensy/td_125/teensyduino.64bit
 
 # if sound doesn't work, install pavucontrol
 apt-get install pavucontrol
+
+# install inkscape
+# cmd here...
+
+# install ksnapshot (for screenshots)
+# cmd here...
+
+# install gtk-recordmydesktop
+# cmd here...
+
+# install vlc
+# cmd here...
+
+# install gnuplot
