@@ -79,3 +79,5 @@ apt-get install pavucontrol
 # cmd here...
 
 # install gnuplot
+
+# install filezilla
