@@ -81,3 +81,5 @@ apt-get install pavucontrol
 # install gnuplot
 
 # install filezilla
+
+# install jekyll
